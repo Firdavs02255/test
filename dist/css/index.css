@@ -20,7 +20,9 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: calc(1300px + 32px);
+  width: 100%;
+  padding: 0 16px;
 }
 ul {
   list-style: none;

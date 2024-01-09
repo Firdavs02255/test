@@ -1,15 +1,25 @@
 *,
 *::before,
-* ::after {
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a,
+span,
+button,
+label,
+textarea {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: inherit;
 }
 body {
   font-family: "Raleway", sans-serif;
 }
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
 }
 ul {
   list-style: none;
@@ -24,7 +34,6 @@ a {
 .nav_bar-1 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .logo-container {
   display: flex;
@@ -92,9 +101,26 @@ a {
   font-weight: 600;
 }
 .calculater {
-  padding: 18px 23px 19px;
+  padding: 18px 23px;
   border-radius: 32px;
   background: var(--Orange, #f2994a);
   box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.2);
   color: #fff;
+}
+.nav_bar-2 {
+  background: var(--Yellow, #f2c94c);
+}
+.inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+.link {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
 }

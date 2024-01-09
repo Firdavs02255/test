@@ -1,68 +1,68 @@
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
- font-family: 'Raleway', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
-.container{
- max-width: 1300px;
-}
-
-.what-we-are-doing{
- height: 100vh;
- width: 100%;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
+.container {
+  max-width: 1300px;
 }
 
-.description-box{
- display: flex;
- flex-direction: row-reverse;
- justify-content: space-between;
+.what-we-are-doing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.description-box img{
-  height: 428px;
+.description-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.description-box img {
+  height: 528px;
   width: 635px;
 }
 
-.description{
- display: flex;
- flex-direction: column;
- align-items: start;
- justify-content: center;
- margin-right: 80px;
- width: 622px;
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-right: 80px;
+  width: 622px;
 }
 
-.box-container{
- display: flex;
- width: 100%;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;
+.box-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.box{
- width: 202px;
-height: 100px;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-flex-shrink: 0;
-border-radius: 15px;
-background: var(--White, #FFF);
-box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.20);
+.box {
+  width: 202px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.2);
 }
 
-button{
- border-radius: 32px;
- height: 50px;
- width: 200px;
- border: 0px;
-background: var(--Orange, #F2994A);
-box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.20);
+button {
+  border-radius: 32px;
+  height: 50px;
+  width: 200px;
+  border: 0px;
+  background: var(--Orange, #f2994a);
+  box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.2);
 }

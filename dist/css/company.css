@@ -1,27 +1,26 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
-    max-width: 1300px;
+  max-width: 1300px;
 }
 
 #more-about-us {
-    border-radius: 32px;
-    height: 50px;
-    width: 200px;
-    border: 0px;
-    background: var(--Orange, #F2994A);
-    box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.20);
+  border-radius: 32px;
+  height: 50px;
+  width: 200px;
+  border: 0px;
+  background: var(--Orange, #f2994a);
+  box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.2);
 }
-
 .box-container {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }

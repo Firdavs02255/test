@@ -19,6 +19,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .container {
+  margin: 0 auto;
   max-width: 1300px;
 }
 ul {
@@ -124,3 +125,5 @@ a {
   font-style: normal;
   font-weight: 500;
 }
+
+/* Main */

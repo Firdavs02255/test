@@ -18,6 +18,7 @@
 }
 
 .description-box {
+  max-width: 1300px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -171,7 +172,7 @@ a {
   box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.2);
 }
 
-button {
+.description button {
   border-radius: 32px;
   height: 50px;
   width: 200px;
@@ -179,3 +180,10 @@ button {
   background: var(--Orange, #f2994a);
   box-shadow: 0px 4px 20px 0px rgba(242, 153, 74, 0.2);
 }
+
+.calculater{
+  max-width: 1300px;
+  height: 100vh;
+  width: 100%;
+}
+

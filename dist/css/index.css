@@ -38,9 +38,22 @@ body {
 .orange {
   color: #f2994a;
 }
+.yellow {
+  color: #f2c94c;
+}
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+p {
+  margin: 0;
+}
+.number-position {
+  position: absolute;
+  width: 112px;
+  height: 113px;
+  left: -18px;
+  top: 40px;
 }
